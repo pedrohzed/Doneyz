@@ -6,9 +6,20 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-green: #38ef7d;
+    --dark-bg: #0b1a14;
+    --font-nunito: 'Nunito', sans-serif;
+}
+
 body {
-     background: #004d1d;
-    background: linear-gradient(90deg,rgba(0, 77, 29, 1) 20%, rgba(33, 194, 167, 1) 69%, rgba(49, 130, 83, 1) 100%, rgba(237, 221, 83, 1) 100%);
+    margin: 0;
+    font-family: var(--font-nunito);
+    color: white;
+    background-color: var(--dark-bg);
+    background-image: 
+        radial-gradient(at 0% 0%, hsla(158, 82%, 33%, 0.35) 0, transparent 50%), 
+        radial-gradient(at 100% 100%, hsla(120, 60%, 40%, 0.3) 0, transparent 50%);
     min-height: 100vh;
     display: flex;
     justify-content: center;

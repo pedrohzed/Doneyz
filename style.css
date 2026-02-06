@@ -19,9 +19,10 @@ body {
 }
 
 header h1 {
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-weight: 900;
-    margin-top: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
 }
 
 header h1 span { color: var(--primary-green); }
@@ -29,7 +30,13 @@ header h1 span { color: var(--primary-green); }
 .presentation-hero {
     text-align: center;
     max-width: 600px;
-    padding: 4rem 2rem;
+    padding: 0.5rem 2rem 4rem 2rem;
+}
+.presentation-hero p {
+    margin-bottom: 3rem; /* Aumente este valor para dar mais espaço (ex: 3rem ou 40px) */
+    font-weight: 300;
+    line-height: 1.6;
+    opacity: 0.9;
 }
 
 .glass-card {
