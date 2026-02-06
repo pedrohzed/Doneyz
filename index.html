@@ -5,19 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doneyz</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    
-<div> 
-    <h2>Want's to create a simple to-do list?</h2>
-    <h1>With Doneyz it's FREE and Easy!<h1>
-</div>
-  
-<div> 
-    <button id="mybutton">Click Me</button>
-    <script src="script.js"></script>
-</div>
-   
+    <header>
+        <h1>Done<span>yz</span></h1>
+    </header>
+
+    <main class="presentation-hero">
+        <h2>Simplify Your Day.<br>Get Things Done</h2>
+        <p>Doneyz is the incredibly simple to-do list for everyone. No complex features, just pure focus</p>
+        <a href="#demo" class="btn-primary">See How Easy It Is</a>
+    </main>
+    <section id="demo" class="glass-card">
+
+        <h3>Your To-do List</h3>
+        <div class="task-input-group">
+        <input type="text" id="todo-input" placeholder="What needs to be Doneyz">
+        <button class="btn-primary btn-add-task" id="add-button">Add
+        </button>
+        </div>
+
+        <ul id="todo-list">
+            <li><span>Buy groceries</span><button class="delete-btn">✕</button></li>
+            <li><span>Plan Doneyz lauch</span><button class="delete-btn">✕</button></li>
+        </ul>
+        
+    </section>
+
 </body>
 </html>
